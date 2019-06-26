@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog 
   def name=(dog_name)
     @this_dogs_name = dog_name
@@ -14,3 +16,4 @@ lassie.name = "Lassie"
 lassie.name
 
 puts lassie
+binding.pry
